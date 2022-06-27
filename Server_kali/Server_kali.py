@@ -2,7 +2,7 @@ import os
 from flask import Flask, render_template, abort, url_for, json, jsonify
 import json
 import subprocess as sp
-file="/home/kavin/task2/Server_kali"
+file="/home/Spider_task2_DevOps/Server_kali"
 
 app = Flask(__name__)
 @app.route("/customers")

@@ -3,7 +3,7 @@ from flask import Flask, render_template, abort, url_for, json, jsonify
 import json
 import html
 import subprocess as sp
-file="/home/kavin/task2/Server_arch"
+file="/home/Spider_task2_DevOps/Server_arch"
 
 app = Flask(__name__)
 @app.route("/customers")

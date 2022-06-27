@@ -1,3 +1,3 @@
 <?php
 
-$file="/home/kavin/task2";
+$file="/home/Spider_task2_DevOps";

@@ -2,7 +2,7 @@ import os
 from flask import Flask
 import json
 import subprocess as sp
-file="/home/kavin/task2/Server_debian"
+file="/home/Spider_task2_DevOps/Server_debian"
 
 app = Flask(__name__)
 @app.route("/customers")
