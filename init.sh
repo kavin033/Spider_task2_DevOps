@@ -19,3 +19,8 @@ export FLASK_APP=Server_kali
 export FLASK_ENV=development
 gnome-terminal -e "bash -c 'flask run -p 8002;exec $SHELL'"
 cd ..
+cd Server_secrets
+export FLASK_APP=Server_secrets
+export FLASK_ENV=development
+gnome-terminal -e "bash -c 'flask run -p 8003;exec $SHELL'"
+cd ..
